@@ -1,0 +1,247 @@
+html{
+    scroll-behavior: smooth;
+}
+.nav-link{
+    margin-left: 15px;
+    color:white;
+    font-weight: 600;
+}
+.navbar{
+    background-color: #ff223c;
+}
+.navbar img{
+    width: 70px;
+}
+.navbar.fas{
+text-decoration: none;
+
+}
+.btn{
+    background-color:#d70d25;
+    color: white;
+    border-radius: 25px;
+    margin-left: -80px;
+}
+
+.form1{
+    border: 2px solid #d70d25;
+    width: 60%;
+}
+.form1:hover{
+    border: 2px solid #d70d25;
+}
+.Home{
+    background-color: #d70d25;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    background-size:cover;
+    position: relative;
+ 
+
+}
+
+.wa{
+left: 0;
+right: 0;
+bottom: 0;
+position: absolute;
+z-index: 1;
+
+
+
+}
+.Home-Content{
+    color: white;
+ padding: 150px 0 50px;
+ 
+}
+
+.Home-Content h1{
+font-size: 56px;
+font-weight: bold;
+margin-bottom: 25px;
+
+}
+.Home-Content p{
+    text-align: justify;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 30px;
+}
+.Btn1{
+/* width: 150px; */
+padding: 7px 20px;
+background-color: #fff;
+text-decoration: none;
+color: black;
+font-weight: 700;
+font-size: 20px;
+border-radius: 20px;
+cursor: pointer;
+transition: 0.5s;
+align-items: center;
+}
+.Btn1:hover{
+  background-color: black;
+  color: white;
+}
+.Home img{
+    width: 320px;
+    animation: animate infinite 3s linear;
+}
+@keyframes animate {
+0%,100%{
+    transform: translateY(10px);
+}
+50%{
+    transform: translateY(-10px);
+}
+}
+.About h1{
+font-size: 56px;
+font-weight: bold;
+margin-bottom: 30px;
+
+}
+.About p{
+    text-align: justify;
+    margin-bottom: 40px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.About img{
+    transition: 0.5s;
+}
+.About img:hover{
+transform: scale(1.08);
+
+}
+.About a{
+    width: 150px;
+    padding: 7px 25px;
+    background-color: #d70d25;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 20px;
+    cursor: pointer;  
+}
+.Product h1{
+    font-size: 40px;
+}
+.Review h1{
+    font-size: 40px;  
+}
+.carousel-item{
+    background-color: #d70d25;
+    height: 400px;
+padding-top: 40px;
+
+}
+.image-aria img{
+width: 14%;
+margin-bottom: 20px;
+}
+.image-text{
+    color: white;
+    text-align: center;
+}
+.image-text p{
+    font-size: 12;
+    padding: 0 20px;
+    margin: 10px 0;
+}
+.Star{
+color:gold;
+font-size: 12px;
+letter-spacing: 3px;
+}
+h6{
+    color:yellow;
+}
+.Product a{
+    background-color:#d70d25;
+    color: white;
+    border-radius: 25px;
+    margin-left:-7px;
+    margin-top: 20px;
+}
+.Product h5{
+    font-weight: bold;
+    color:#d70d25;
+}
+.Product h6{
+    color:#d70d25;
+    font-weight: bold;
+}
+.Product p{
+    text-align: justify;
+    font-size: 14px;
+}
+.card{
+transition: 0.5s;
+}
+.card:hover{
+    transform: scale(1.03);
+    cursor: pointer;
+}
+.Product h1{
+    font-weight: bold;
+    font-size: 40px;
+    color: #d70d25;   
+}
+.Offer h1{
+font-weight: bold;
+font-size: 40px;
+color: #d70d25;
+}
+.Offer h5{
+    font-weight: bold;
+    color:#d70d25;
+}
+.Offer h6{
+    color:#d70d25;
+    font-weight: bold;
+}
+.Offer p{
+    text-align: justify;
+    font-size: 14px;
+}
+.Offer a{
+    background-color:#d70d25;
+    color: white;
+    border-radius: 25px;
+    margin-left:-7px;
+    margin-top: 20px;
+}
+
+footer .fab{
+margin-left: 30px;
+font-size: 16px;
+ 
+}
+footer h5{
+    font-weight: bold;
+   
+}
+footer a{
+    text-decoration: none;
+    color: white;
+  
+}
+footer{
+    background-color: rgba(0, 0, 0, 0.911);
+    color: white;
+}
+.footer-copyright{
+    background-color:rgb(51, 51, 51);  
+    font-weight:700;
+}
+footer p{
+    margin-top:-10px !important;
+    text-align: justify;
+    font-size: 15px;
+    font-weight: 600;
+}
